@@ -44,10 +44,18 @@
 
     <main>
         <!-- Hero Section -->
-        <section class="hero" id="home">
+        <section class="hero intro-state-1" id="home">
+            <div class="hero-intro-ghost" id="hero-ghost">
+                <div class="ghost-card">
+                    <div class="icon-pulse"></div>
+                    <span>Data loading complete</span>
+                </div>
+                <div class="ghost-expansion-box"></div>
+            </div>
             <div class="hero-bg-glow"></div>
             <div class="hero-container">
-                <div class="hero-content reveal-up">
+                <div class="hero-content" id="hero-main-content">
+
                     <div class="badge">
                         <span class="badge-dot"></span> Cortex beta testing is now live
                     </div>
@@ -70,7 +78,7 @@
                     </div>
                 </div>
                 <!-- 3D Abstract Visual using CSS -->
-                <div class="hero-visual reveal-scale">
+                <div class="hero-visual">
                     <div class="orb orb-1"></div>
                     <div class="orb orb-2"></div>
                     <div class="orb orb-3"></div>
@@ -82,17 +90,29 @@
                         <div class="mockup-body">
                             <div class="cortex-interface">
                                 <div class="ai-greeting">
-                                    <div class="typing-indicator">
+                                    <div class="typing-indicator" id="intro-typing-indicator">
                                         <span></span><span></span><span></span>
                                     </div>
-                                    <p>Hello! I'm Cortex. Waiting for your command...</p>
+                                    <p id="intro-typing-text"></p>
                                 </div>
-                                <div class="task-demo">
+                                <div class="task-demo" id="intro-task-demo">
                                     <div class="task-line skeleton"></div>
                                     <div class="task-line skeleton short"></div>
-                                    <div class="task-card">
+                                    <div class="task-card" id="task-data-loading">
                                         <div class="icon-pulse"></div>
-                                        <span>Data sync complete in 0.4s</span>
+                                        <span>Data loading complete</span>
+                                    </div>
+                                    <div class="task-card sequence-card card-features" style="display: none;">
+                                        <div class="icon-pulse"></div>
+                                        <span>Features</span>
+                                    </div>
+                                    <div class="task-card sequence-card card-workflow" style="display: none;">
+                                        <div class="icon-pulse"></div>
+                                        <span>Workflow</span>
+                                    </div>
+                                    <div class="task-card sequence-card card-gui" style="display: none;">
+                                        <div class="icon-pulse"></div>
+                                        <span>GUI showcase</span>
                                     </div>
                                 </div>
                             </div>
