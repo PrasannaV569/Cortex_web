@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cortex AI | The Ultimate Desktop AI</title>
+    <meta name="description"
+        content="Meet Cortex. A deeply integrated OS-level companion featuring hyper-natural voice, advanced system control, and precision understanding.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon"></div>
+                <span>Cortex</span>
+            </a>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-links">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#how-it-works" class="nav-link">How it Works</a>
+            </nav>
+            <div class="nav-cta">
+                <a href="#" class="btn btn-primary-small">Download Beta <i class="fa-brands fa-linux"
+                        style="margin-left: 5px;"></i></a>
+                <a href="#" class="btn btn-primary-small">Download Beta <i class="fa-brands fa-windows"
+                        style="margin-left: 5px;"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-bg-glow"></div>
+            <div class="hero-container">
+                <div class="hero-content reveal-up">
+                    <div class="badge">
+                        <span class="badge-dot"></span> Cortex beta testing is now live
+                    </div>
+                    <h1 class="hero-title">Meet Cortex.<br><span class="gradient-text">The Ultimate Desktop AI.</span>
+                    </h1>
+                    <p class="hero-subtitle">A deeply integrated OS-level companion featuring hyper-natural voice,
+                        advanced system control, and precision understanding.</p>
+                    <div class="hero-cta">
+                        <a href="#" class="btn btn-primary glow-effect">Download Beta <i class="fa-brands fa-windows"
+                                style="margin-left: 5px;"></i></a>
+                        <a href="#" class="btn btn-primary glow-effect">Download Beta <i class="fa-brands fa-linux"
+                                style="margin-left: 5px;"></i></a>
+                        <a href="#how-it-works" class="btn btn-secondary glass-btn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                            </svg>
+                            See How it Works
+                        </a>
+                    </div>
+                </div>
+                <!-- 3D Abstract Visual using CSS -->
+                <div class="hero-visual reveal-scale">
+                    <div class="orb orb-1"></div>
+                    <div class="orb orb-2"></div>
+                    <div class="orb orb-3"></div>
+                    <div class="glass-device mockup">
+                        <div class="mockup-header">
+                            <div class="mockup-title" style="font-size:12px; opacity:0.6; padding-left: 8px;">Cortex.exe
+                            </div>
+                        </div>
+                        <div class="mockup-body">
+                            <div class="cortex-interface">
+                                <div class="ai-greeting">
+                                    <div class="typing-indicator">
+                                        <span></span><span></span><span></span>
+                                    </div>
+                                    <p>Hello! I'm Cortex. Waiting for your command...</p>
+                                </div>
+                                <div class="task-demo">
+                                    <div class="task-line skeleton"></div>
+                                    <div class="task-line skeleton short"></div>
+                                    <div class="task-card">
+                                        <div class="icon-pulse"></div>
+                                        <span>Data sync complete in 0.4s</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <div class="features-bg-glow"></div>
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Everything You Need. <span class="gradient-text-alt">Nothing You Don't.</span>
+                </h2>
+                <p class="section-subtitle">Every feature is purpose-built for Windows and Linux — real OS control, not
+                    cloud wrappers.</p>
+            </div>
+
+            <div class="features-grid">
+
+                <!-- 1. Voice Interaction -->
+                <div class="feature-card target-ui-card color-cyan" style="--delay: 0.05s">
+                    <div class="target-icon">
+                        <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+                            <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                            <line x1="12" y1="19" x2="12" y2="23"></line>
+                            <line x1="8" y1="23" x2="16" y2="23"></line>
+                        </svg>
+                    </div>
+                    <div class="target-content">
+                        <h3>VOICE INTERACTION</h3>
+                        <ul>
+                            <li>Local .ONNX Piper models</li>
+                            <li>Offline human-quality TTS</li>
+                            <li>Downloadable voice packs</li>
+                            <li>Adjustable speech rate</li>
+                            <li>Always-on wake word backup</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 2. Natural Language Understanding -->
+                <div class="feature-card target-ui-card color-purple" style="--delay: 0.1s">
+                    <div class="target-icon">
+                        <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                        </svg>
+                    </div>
+                    <div class="target-content">
+                        <h3>NATURAL LANGUAGE</h3>
+                        <ul>
+                            <li>Custom-built NLU engine</li>
+                            <li>Carrier phrase matching</li>
+                            <li>Anchor-based context priority</li>
+                            <li>Over 80+ command variants</li>
+                            <li>No generic cloud models</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 3. Diagnostics -->
+                <div class="feature-card target-ui-card color-green" style="--delay: 0.15s">
+                    <div class="target-icon">
+                        <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                    </div>
+                    <div class="target-content">
+                        <h3>SYSTEM DIAGNOSTICS</h3>
+                        <ul>
+                            <li>Live CPU and RAM usage</li>
+                            <li>Disk space and temperatures</li>
+                            <li>Running process monitoring</li>
+                            <li>Network traffic analysis</li>
+                            <li>Direct verbal reporting</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 4. Security & Maintenance -->
+                <div class="feature-card target-ui-card color-blue" style="--delay: 0.2s">
+                    <div class="target-icon">
+                        <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                    </div>
+                    <div class="target-content">
+                        <h3>SECURITY & MAINTENANCE</h3>
+                        <ul>
+                            <li>Quick Windows Defender scans</li>
+                            <li>Firewall & open port checks</li>
+                            <li>DNS cache flushing</li>
+                            <li>Automated junk file clearing</li>
+                            <li>Live internet speed tests</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 5. App & Driver Manager -->
+                <div class="feature-card target-ui-card color-cyan" style="--delay: 0.25s">
+                    <div class="target-icon">
+                        <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="3" width="7" height="7"></rect>
+                            <rect x="14" y="3" width="7" height="7"></rect>
+                            <rect x="14" y="14" width="7" height="7"></rect>
+                            <rect x="3" y="14" width="7" height="7"></rect>
+                        </svg>
+                    </div>
+                    <div class="target-content">
+                        <h3>APP & DRIVER MANAGER</h3>
+                        <ul>
+                            <li>Scan for outdated drivers</li>
+                            <li>Powered by wmic & pnputil</li>
+                            <li>Live update progress indicators</li>
+                            <li>Open and close apps by name</li>
+                            <li>Manage Chrome, Word, WhatsApp</li>
+                            <li>Kill processes via voice commands</li>
+                            <li>Full Task Manager integration</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 6. File System Operations -->
+                <div class="feature-card target-ui-card color-green" style="--delay: 0.3s">
+                    <div class="target-icon">
+                        <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="target-content">
+                        <h3>FILE SYSTEM OPERATIONS</h3>
+                        <ul>
+                            <li>Create, move, and copy by voice</li>
+                            <li>Zip and extract directories</li>
+                            <li>8-thread parallel file search</li>
+                            <li>Interactive search result cards</li>
+                            <li>Interrupt mid-scan by voice</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 7. Workspace Management -->
+                <div class="feature-card target-ui-card color-blue" style="--delay: 0.35s">
+                    <div class="target-icon">
+                        <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="3" y1="9" x2="21" y2="9"></line>
+                            <line x1="9" y1="21" x2="9" y2="9"></line>
+                        </svg>
+                    </div>
+                    <div class="target-content">
+                        <h3>WORKSPACE MANAGEMENT</h3>
+                        <ul>
+                            <li>Snap, maximize, & minimize windows</li>
+                            <li>Create named multi-app Workspaces</li>
+                            <li>Launch groups with one command</li>
+                            <li>Switch workspaces instantly</li>
+                            <li>Visual workspace editor</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 8. Neural Sync Automation -->
+                <div class="feature-card target-ui-card color-red" style="--delay: 0.4s">
+                    <div class="target-icon">
+                        <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                        </svg>
+                    </div>
+                    <div class="target-content">
+                        <h3>NEURAL SYNC AUTOMATION</h3>
+                        <ul>
+                            <li>Visual node-based editor</li>
+                            <li>Drag-and-drop system commands</li>
+                            <li>Type Text & Press Hotkey actions</li>
+                            <li>Play Sound & Notify nodes</li>
+                            <li>Bezier curve wiring</li>
+                            <li>Primary startup workflow support</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 9. Status Widget & UI -->
+                <div class="feature-card target-ui-card color-silver" style="--delay: 0.45s">
+                    <div class="target-icon">
+                        <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                        </svg>
+                    </div>
+                    <div class="target-content">
+                        <h3>STATUS WIDGET & UI</h3>
+                        <ul>
+                            <li>Always-visible pill overlay</li>
+                            <li>Animated state indicators</li>
+                            <li>Live file-search spinner</li>
+                            <li>Advanced Z-order locking</li>
+                            <li>4 global accent themes live</li>
+                            <li>Voice-triggered screenshots</li>
+                            <li>One-click Wi-Fi password reveal</li>
+                            <li>In-app TTS model downloader</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- How it Works Section -->
+        <section class="how-it-works" id="how-it-works">
+            <div class="how-bg-glow"></div>
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Workflow <span class="gradient-text">Evolved</span></h2>
+                <p class="section-subtitle">Three simple steps to unlock your autonomous digital brain.</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-step reveal-right">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Install & Anchor</h3>
+                        <p>Download Cortex and lock its sleek interface to your desktop. Its advanced z-order locking
+                            ensures it's always accessible and never lost.</p>
+                    </div>
+                    <div class="step-visual glass-box">
+                        <img src="https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=600&q=80"
+                            alt="Abstract connection visual" class="img-abstract">
+                    </div>
+                </div>
+
+                <div class="timeline-step alt reveal-left">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Speak Naturally</h3>
+                        <p>Interact using hyper-natural voice. The custom NLU engine effortlessly grasps context and
+                            nuanced commands without confusion.</p>
+                    </div>
+                    <div class="step-visual glass-box">
+                        <div class="chat-bubble">Run a quick system scan with Defender.</div>
+                    </div>
+                </div>
+
+                <div class="timeline-step reveal-right">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Watch It Execute</h3>
+                        <p>Observe as Cortex instantly alters system settings, updates drivers, or manages your devices,
+                            communicating its exact state visually.</p>
+                    </div>
+                    <div class="step-visual glass-box success">
+                        <div class="success-mark">✓</div>
+                        <span>Task Completed Successfully</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- GUI Showcase Section -->
+        <section class="gui-showcase" id="gui-showcase">
+            <div class="gui-bg-glow"></div>
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Inside <span class="gradient-text">Cortex</span></h2>
+                <p class="section-subtitle">Every panel, every tool — purpose-built for power users who demand complete
+                    system control.</p>
+            </div>
+
+            <div class="gui-tabs reveal-up">
+                <div class="gui-tab-indicator"></div>
+                <button class="gui-tab active" data-tab="status">Status Widget</button>
+                <button class="gui-tab" data-tab="hub">Hub Dashboard</button>
+                <button class="gui-tab" data-tab="apps">Apps Manager</button>
+                <button class="gui-tab" data-tab="drivers">Driver Manager</button>
+                <button class="gui-tab" data-tab="services">Services</button>
+                <button class="gui-tab" data-tab="wifi">Wi-Fi</button>
+                <button class="gui-tab" data-tab="neural">Neural Sync</button>
+                <button class="gui-tab" data-tab="settings">Settings</button>
+                <button class="gui-tab" data-tab="knowledge">Knowledge Hub</button>
+                <button class="gui-tab" data-tab="filesearch">File Search</button>
+                <button class="gui-tab" data-tab="browser">Browser Selector</button>
+            </div>
+
+
+            <div class="gui-panels">
+                <!-- Status Widget -->
+                <div class="gui-panel active" id="tab-status">
+                    <div class="gui-panel-inner glass-card">
+                        <div class="gui-panel-img">
+                            <img src="images/gui_status_widget.png" alt="Cortex Status Widget animated states"
+                                loading="lazy">
+                        </div>
+                        <div class="gui-panel-text">
+                            <span class="gui-badge cyan-badge">Always On-Screen</span>
+                            <h3>Intelligent Status Widget</h3>
+                            <p>The signature face of Cortex — a sleek <strong>140×50px capsule</strong> that anchors to
+                                your desktop permanently. It visually communicates Cortex's exact internal state in real
+                                time through five distinct micro-animations, running at 40 FPS.</p>
+                            <ul class="gui-feature-list">
+                                <li><span class="bullet-dot" style="background:#9fff78"></span><strong>Idle</strong> —
+                                    Static grey text, ambient presence</li>
+                                <li><span class="bullet-dot"
+                                        style="background:#39FF14"></span><strong>Listening</strong> — Neon green
+                                    breathing pulse bars</li>
+                                <li><span class="bullet-dot" style="background:#ffff00"></span><strong>Thinking</strong>
+                                    — Dual superimposed yellow sine brain-waves</li>
+                                <li><span class="bullet-dot"
+                                        style="background:#00ffff"></span><strong>Processing</strong> — Cyan Gaussian
+                                    "Knight Rider" sweep</li>
+                                <li><span class="bullet-dot" style="background:#8a2be2"></span><strong>Speaking</strong>
+                                    — Randomized purple beatbox bars</li>
+                            </ul>
+                            <p class="gui-tech-note">Win32 <code>HWND_TOPMOST</code> enforcement every 200ms — it never
+                                hides behind your taskbar.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hub Dashboard -->
+                <div class="gui-panel" id="tab-hub">
+                    <div class="gui-panel-inner glass-card">
+                        <div class="gui-panel-img">
+                            <img src="images/gui_hub_dashboard.png" alt="Cortex Hub system monitoring dashboard"
+                                loading="lazy">
+                        </div>
+                        <div class="gui-panel-text">
+                            <span class="gui-badge purple-badge">System Monitor</span>
+                            <h3>Cortex Hub Dashboard</h3>
+                            <p>Your real-time command center. The Hub tracks every critical system metric and logs every
+                                interaction Cortex has, giving you complete operational visibility at a glance.</p>
+                            <ul class="gui-feature-list">
+                                <li><span class="bullet-dot" style="background:#39FF14"></span><strong>CPU
+                                        Usage</strong> — Live percentage with animated progress bar</li>
+                                <li><span class="bullet-dot" style="background:#39FF14"></span><strong>Memory</strong> —
+                                    Used / Total GB with percent bar, updated every second</li>
+                                <li><span class="bullet-dot" style="background:#39FF14"></span><strong>Disk</strong> —
+                                    Storage usage percentage</li>
+                                <li><span class="bullet-dot" style="background:#39FF14"></span><strong>Battery</strong>
+                                    — Level + charging state</li>
+                                <li><span class="bullet-dot" style="background:#00ffff"></span><strong>Activity
+                                        Log</strong> — Green monospace console shows every command spoken and every
+                                    response given</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Apps Manager -->
+                <div class="gui-panel" id="tab-apps">
+                    <div class="gui-panel-inner glass-card">
+                        <div class="gui-panel-img">
+                            <img src="images/gui_apps_manager.png" alt="Cortex Installed Applications Manager"
+                                loading="lazy">
+                        </div>
+                        <div class="gui-panel-text">
+                            <span class="gui-badge green-badge">App Control</span>
+                            <h3>Installed Applications Manager</h3>
+                            <p>A full system-level application manager that gives you instant visibility into every
+                                installed program. Background-threaded scans ensure the UI never freezes no matter how
+                                many apps are installed.</p>
+                            <ul class="gui-feature-list">
+                                <li><span class="bullet-dot" style="background:#0078d4"></span><strong>Live
+                                        Search</strong> — Instantly filter hundreds of apps by name as you type</li>
+                                <li><span class="bullet-dot"
+                                        style="background:#d83b01"></span><strong>Uninstall</strong> — One-click removal
+                                    for any app with an uninstall string</li>
+                                <li><span class="bullet-dot" style="background:#107c10"></span><strong>Repair</strong> —
+                                    In-place repair for MSI-based applications</li>
+                                <li><span class="bullet-dot" style="background:#9fff78"></span><strong>Details</strong>
+                                    — App name, version, and installed size all visible in the table</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Driver Manager -->
+                <div class="gui-panel" id="tab-drivers">
+                    <div class="gui-panel-inner glass-card">
+                        <div class="gui-panel-img">
+                            <img src="images/gui_driver_manager.png" alt="Cortex Driver and Component Manager"
+                                loading="lazy">
+                        </div>
+                        <div class="gui-panel-text">
+                            <span class="gui-badge cyan-badge">Driver Control</span>
+                            <h3>Driver &amp; System Component Manager</h3>
+                            <p>Goes beyond standard driver tools by combining WMI hardware driver data with
+                                <code>winget</code> software update checking, all in one unified view. Features the
+                                animated <strong>LoadingButton</strong> — a custom spinner that replaces the button text
+                                while an update runs.
+                            </p>
+                            <ul class="gui-feature-list">
+                                <li><span class="bullet-dot" style="background:#ffaa00"></span><strong>Update
+                                        Available</strong> — Highlighted in amber/bold, one-click silent install</li>
+                                <li><span class="bullet-dot" style="background:#00cc66"></span><strong>Up to
+                                        Date</strong> — Confirmed green; "Search Info" opens a driver-specific Google
+                                    query</li>
+                                <li><span class="bullet-dot" style="background:#009944"></span><strong>Update
+                                        All</strong> — Batch-updates every pending package simultaneously</li>
+                                <li><span class="bullet-dot" style="background:#0078d4"></span><strong>Animated
+                                        Spinner</strong> — Custom QPainter arc shows update progress per-row</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Services -->
+                <div class="gui-panel" id="tab-services">
+                    <div class="gui-panel-inner glass-card">
+                        <div class="gui-panel-img">
+                            <img src="images/gui_services_manager.png" alt="Cortex System Services Manager"
+                                loading="lazy">
+                        </div>
+                        <div class="gui-panel-text">
+                            <span class="gui-badge purple-badge">OS Services</span>
+                            <h3>System Services Manager</h3>
+                            <p>Full visibility and control over every Windows service, presented in a fast, searchable
+                                table. Running services float to the top for immediate attention.</p>
+                            <ul class="gui-feature-list">
+                                <li><span class="bullet-dot" style="background:#39FF14"></span><strong>Running</strong>
+                                    — Bright green status, red "Stop" button to kill instantly</li>
+                                <li><span class="bullet-dot" style="background:#888"></span><strong>Stopped</strong> —
+                                    Grey status, blue "Start" button to bring back online</li>
+                                <li><span class="bullet-dot" style="background:#00ffff"></span><strong>Live
+                                        Filter</strong> — Search by service name or display name in real time</li>
+                                <li><span class="bullet-dot"
+                                        style="background:#ffaa00"></span><strong>Auto-Refresh</strong> — Table
+                                    re-validates 1.5 seconds after any Start/Stop action</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wi-Fi Password -->
+                <div class="gui-panel" id="tab-wifi">
+                    <div class="gui-panel-inner glass-card">
+                        <div class="gui-panel-img gui-panel-img--small">
+                            <img src="images/gui_wifi_password.png" alt="Cortex Wi-Fi Password Viewer" loading="lazy">
+                        </div>
+                        <div class="gui-panel-text">
+                            <span class="gui-badge green-badge">Quick Tool</span>
+                            <h3>Wi-Fi Password Viewer</h3>
+                            <p>A compact, no-nonsense popup that surfaces your current network's saved Wi-Fi password
+                                instantly — no digging through system settings required. Triggered by a simple voice
+                                command.</p>
+                            <ul class="gui-feature-list">
+                                <li><span class="bullet-dot" style="background:#39FF14"></span><strong>SSID</strong> —
+                                    Current connected network name displayed prominently</li>
+                                <li><span class="bullet-dot" style="background:#0078d4"></span><strong>Password</strong>
+                                    — Shown in large bold text, selectable by mouse</li>
+                                <li><span class="bullet-dot" style="background:#9fff78"></span><strong>One-Click
+                                        Copy</strong> — "Copy" button next to the password, changes to "Copied" on click
+                                </li>
+                                <li><span class="bullet-dot" style="background:#ffaa00"></span><strong>Voice
+                                        Triggered</strong> — Say "What is my Wi-Fi password?" and this appears instantly
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Neural Sync -->
+                <div class="gui-panel" id="tab-neural">
+                    <div class="gui-panel-inner glass-card">
+                        <div class="gui-panel-img">
+                            <img src="images/gui_neural_sync.png" alt="Cortex Neural Sync Automation Editor"
+                                loading="lazy">
+                        </div>
+                        <div class="gui-panel-text">
+                            <span class="gui-badge cyan-badge">Automation</span>
+                            <h3>Neural Sync — Visual Automation Editor</h3>
+                            <p>The most powerful module in Cortex. A full node-based visual automation builder where you
+                                drag-and-drop logic blocks and wire them together with bezier-curve connections — no
+                                scripting required.</p>
+                            <ul class="gui-feature-list">
+                                <li><span class="bullet-dot" style="background:#39FF14"></span><strong>11 Node
+                                        Types</strong> — Start, End, Delay, Speak, System Command, Press Hotkey, Type
+                                    Text, Notify, Play Sound, Open Target, If Condition</li>
+                                <li><span class="bullet-dot" style="background:#00ffff"></span><strong>If Condition
+                                        Diamond</strong> — Branch logic with green True port and red False port for
+                                    conditional flows</li>
+                                <li><span class="bullet-dot" style="background:#ffaa00"></span><strong>Multiple
+                                        Workflows</strong> — Create, rename, and switch between named automation
+                                    profiles with a dropdown</li>
+                                <li><span class="bullet-dot" style="background:#8a2be2"></span><strong>Set as
+                                        Primary</strong> — One workflow runs on Cortex start; any other can be triggered
+                                    by voice command</li>
+                                <li><span class="bullet-dot" style="background:#39FF14"></span><strong>Live
+                                        Validation</strong> — Canvas checks for disconnected paths in real time before
+                                    allowing save</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Settings -->
+                <div class="gui-panel" id="tab-settings">
+                    <div class="gui-panel-inner glass-card">
+                        <div class="gui-panel-img">
+                            <img src="images/gui_settings.png" alt="Cortex Control Center Settings" loading="lazy">
+                        </div>
+                        <div class="gui-panel-text">
+                            <span class="gui-badge purple-badge">Configuration</span>
+                            <h3>Cortex Control Center</h3>
+                            <p>The unified settings hub for every aspect of Cortex, organized into two focused tabs. All
+                                changes apply live — no restart required for most settings including theme and widget
+                                appearance.</p>
+                            <ul class="gui-feature-list">
+                                <li><span class="bullet-dot" style="background:#0078d4"></span><strong>General
+                                        Tab</strong> — Name, accent theme (Neon Green / Cyber Blue / Plasma Purple /
+                                    Fiery Red), opacity sliders, background color picker, widget lock toggle</li>
+                                <li><span class="bullet-dot" style="background:#39FF14"></span><strong>Voice
+                                        Tab</strong> — Voice pack manager: see all available ONNX voices, download with
+                                    progress bar, delete, or select</li>
+                                <li><span class="bullet-dot" style="background:#00ffff"></span><strong>Speech Rate &amp;
+                                        Volume</strong> — Precise sliders from 50–300 WPM and 0–100% volume</li>
+                                <li><span class="bullet-dot" style="background:#ffaa00"></span><strong>Live
+                                        Preview</strong> — "Test Current Voice" plays a phrase using current settings
+                                    via the Piper engine in real time</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Knowledge Hub -->
+                <div class="gui-panel" id="tab-knowledge">
+                    <div class="gui-panel-inner glass-card">
+                        <div class="gui-panel-img">
+                            <img src="images/gui_knowledge_hub.png" alt="Cortex Intelligence Knowledge Hub"
+                                loading="lazy">
+                        </div>
+                        <div class="gui-panel-text">
+                            <span class="gui-badge green-badge">Intelligence</span>
+                            <h3>Knowledge Hub</h3>
+                            <p>An interactive, searchable map of everything Cortex knows. Browse all voice commands,
+                                intents, trigger patterns, and sample responses organized by category — the ultimate
+                                reference for power users.</p>
+                            <ul class="gui-feature-list">
+                                <li><span class="bullet-dot" style="background:#39FF14"></span><strong>Bento
+                                        Grid</strong> — Category tiles with emoji icons (⚡ Automation, 🖥️ System, 📁
+                                    Files, 🚀 Apps, 🌐 Browser…)</li>
+                                <li><span class="bullet-dot" style="background:#00ffff"></span><strong>Drill-Down
+                                        View</strong> — Click any tile to expand all individual intents with collapsible
+                                    trigger phrase lists</li>
+                                <li><span class="bullet-dot" style="background:#ffaa00"></span><strong>Global
+                                        Search</strong> — Filters tiles and intent cards across all 9+ categories
+                                    simultaneously as you type</li>
+                                <li><span class="bullet-dot" style="background:#8a2be2"></span><strong>Breadcrumb
+                                        Nav</strong> — "KNOWLEDGE HUB > CATEGORY" breadcrumb with back button for
+                                    frictionless navigation</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- File Search -->
+                <div class="gui-panel" id="tab-filesearch">
+                    <div class="gui-panel-inner glass-card">
+                        <div class="gui-panel-img">
+                            <img src="images/gui_file_search.png" alt="Cortex File Search Results" loading="lazy">
+                        </div>
+                        <div class="gui-panel-text">
+                            <span class="gui-badge cyan-badge">File System</span>
+                            <h3>File Search &amp; Results Viewer</h3>
+                            <p>Triggered whenever you ask Cortex to find a file or folder. Searches all drives
+                                simultaneously with multi-threaded scanning and shows interactive result cards the
+                                moment they arrive — no waiting until the full scan is done.</p>
+                            <ul class="gui-feature-list">
+                                <li><span class="bullet-dot" style="background:#39FF14"></span><strong>Exact Match
+                                        Priority</strong> — Exact filename matches appear in neon green at the very top
+                                    of results</li>
+                                <li><span class="bullet-dot" style="background:#00ffff"></span><strong>Open
+                                        Location</strong> — Cyan 📂 button on each card reveals the file in Windows
+                                    Explorer instantly</li>
+                                <li><span class="bullet-dot"
+                                        style="background:#ffaa00"></span><strong>Multi-Drive</strong> — Scans all
+                                    partitions in parallel using up to 8 threads simultaneously</li>
+                                <li><span class="bullet-dot" style="background:#0078d4"></span><strong>Live
+                                        Cancel</strong> — Active searches show as spinners on the Status Widget; click
+                                    any spinner to cancel</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Browser Selector -->
+                <div class="gui-panel" id="tab-browser">
+                    <div class="gui-panel-inner glass-card">
+                        <div class="gui-panel-img gui-panel-img--small">
+                            <img src="images/gui_browser_selector.png" alt="Cortex Browser Selector Dialog"
+                                loading="lazy">
+                        </div>
+                        <div class="gui-panel-text">
+                            <span class="gui-badge green-badge">Smart Routing</span>
+                            <h3>Browser Selection Dialog</h3>
+                            <p>A precision micro-popup that appears when you ask Cortex to open a URL and multiple
+                                browsers are installed. It auto-detects every browser and lets you choose in one click.
+                            </p>
+                            <ul class="gui-feature-list">
+                                <li><span class="bullet-dot"
+                                        style="background:#39FF14"></span><strong>Auto-Detection</strong> — Finds all
+                                    installed browsers (Chrome, Firefox, Edge, Brave, etc.) automatically</li>
+                                <li><span class="bullet-dot" style="background:#0078d4"></span><strong>Context
+                                        Smart</strong> — Only appears when Cortex can't determine which browser to use
+                                    from context</li>
+                                <li><span class="bullet-dot" style="background:#ffaa00"></span><strong>Instant
+                                        Open</strong> — Select + "Open Selection" launches the URL in your chosen
+                                    browser within milliseconds</li>
+                                <li><span class="bullet-dot" style="background:#9fff78"></span><strong>Keyboard
+                                        Support</strong> — Arrow keys navigate list; Enter confirms selection without
+                                    touching the mouse</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CTA Section -->
+        <section class="bottom-cta">
+            <div class="cta-container glass-card reveal-scale">
+                <h2>Ready to evolve your workflow?</h2>
+                <p>Join thousands of professionals already using Cortex to do their best work.</p>
+                <div class="hero-cta">
+                    <a href="#" class="btn btn-primary glow-effect">Download Beta <i class="fa-brands fa-windows"
+                            style="margin-left: 5px;"></i></a>
+                    <a href="#" class="btn btn-primary glow-effect">Download Beta <i class="fa-brands fa-linux"
+                            style="margin-left: 5px;"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <div class="logo-icon"></div>
+                    <span>Cortex</span>
+                </a>
+                <p>The ultimate desktop AI. Featuring hyper-natural voice and advanced system control.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z">
+                            </path>
+                        </svg></a>
+                    <a href="#" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
+                        </svg></a>
+                    <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                            </path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Product</h4>
+                    <a href="#features">Features</a>
+                    <a href="#gui-showcase">GUI Showcase</a>
+                    <a href="#how-it-works">How It Works</a>
+                </div>
+                <div class="link-group">
+                    <h4>Resources</h4>
+                    <a href="https://github.com/">GitHub Repository</a>
+                    <a href="#">Documentation</a>
+                    <a href="https://github.com/issues">Report an Issue</a>
+                    <a href="https://github.com/discussions">Community</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Cortex AI. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
